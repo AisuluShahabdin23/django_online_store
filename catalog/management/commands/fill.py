@@ -36,20 +36,21 @@ class Command(BaseCommand):
 
         product_list = [
             {"pk": 1, 'name': 'Брокколи',
-             'description': 'Овощное растение из семейства капустных', 'photo': "",
+             'description': 'Овощное растение из семейства капустных', 'photo': "products/Brokkoli.jpg",
              'category': category1, 'price': 1200, 'creation_date': "2023-10-29T11:51:45Z",
              'changing_date': '2023-10-29T11:51:50Z'},
 
-            {"pk": 2, 'name': 'Яблоко', 'description': 'Плод яблони шарообразной формы', 'photo': "",
+            {"pk": 2, 'name': 'Яблоко', 'description': 'Плод яблони шарообразной формы', 'photo': "products/Yabloko.jpg",
              'category': category2, 'price': 700, 'creation_date': "2023-10-29T11:53:56Z",
              'changing_date': '2023-10-29T11:53:58Z'},
 
             {"pk": 3, 'name': 'Печенье Бонди',
              'description': 'Полезное и мягкое печенье для самых маленьких. Для детей с 6 месяцев.',
-             'photo': "", 'category': category3, 'price': 550, 'creation_date': "2023-10-29T12:08:17Z",
+             'photo': "products/Bondi.png", 'category': category3, 'price': 550, 'creation_date': "2023-10-29T12:08:17Z",
              'changing_date': '2023-10-29T12:08:19Z'},
 
-            {"pk": 4, 'name': 'Говядина', 'description': 'Употребляемое в пищу мясо крупного рогатого скота', 'photo': "",
+            {"pk": 4, 'name': 'Говядина', 'description': 'Употребляемое в пищу мясо крупного рогатого скота',
+             'photo': "products/Myaso.jpeg",
              'category': category4, 'price': 3000, 'creation_date': "2023-10-29T13:14:11Z",
              'changing_date': '2023-10-29T13:14:13Z'}
         ]
