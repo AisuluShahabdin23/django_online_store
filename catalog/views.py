@@ -3,9 +3,9 @@ from catalog.models import Product, Category
 
 
 def home(request):
-    category_list = Category.objects.all()
+    product_list = Product.objects.all()
     context = {
-        'object_list': category_list,
+        'object_list': product_list,
         'title': 'Главная'
     }
     return render(request, 'catalog/home.html', context)
